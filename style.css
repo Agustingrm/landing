@@ -1,0 +1,70 @@
+h1{
+	font-size: 1;
+	top: 10%;
+	left:50%;
+	font-family: raleway;
+}
+body{
+	margin: 0;
+	background-color: rgb(220,220,220);
+}
+
+.banner {
+	font-weight: 300;
+	text-align: center;
+	padding: 13vh;
+	font-family: quicksand;
+	justify-content: center;
+	align-items: center;
+	font-size: 120%;
+	background-image: url('images/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	width: : 100vw;
+	margin:auto;
+	top:0px;
+	color: rgba(255,255,255,1);
+}
+.button{
+	background-color: rgb(8,28,154);
+	font-family: quicksand;
+	font-size: 110%;
+	color: white;
+	text-decoration: none;
+}
+	
+.subtitle{
+	font-size: 100%;
+	font-family:quicksand;
+	margin-left: 10vw;
+}
+.cards{
+	display: flex;
+	border-width: thick;
+	align-items: center;
+}
+
+.card-unit {
+	min-width: 20vw;
+	border-width:1px;
+	padding-top:5vh;
+	border: solid;
+	margin-left: 9vw;
+	margin-bottom: 3vh;
+	display: block;
+	padding: auto;
+	text-align: center;
+	border-color: rgb(50,50,50);
+	box-shadow: 10px 20px 30px gray;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.footer {
+	padding-left: 5vw;
+	padding-top: 1px;
+	padding-bottom: 1vh;
+	font-size: 100%;
+	font-family:quicksand;
+	background: rgb(90,90,90);
+}
